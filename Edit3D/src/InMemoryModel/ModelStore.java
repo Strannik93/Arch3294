@@ -7,7 +7,7 @@ import ModelElements.Flash;
 import ModelElements.PoligonalModel;
 import ModelElements.Scene;
 
-public class ModelStore implements iModelChanger{
+public class ModelStore {
     public List<PoligonalModel> models;
     public List<Scene> scenes;
     public List<Flash> flashes;
