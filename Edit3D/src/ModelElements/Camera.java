@@ -11,4 +11,10 @@ public class Camera {
     }
     public void move(Point3D location) {
     }
+
+    public Camera(Point3D location, Angle3D angle) {
+        this.location = location;
+        this.angle = angle;
+    }
+
 }
