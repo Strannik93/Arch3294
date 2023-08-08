@@ -49,7 +49,9 @@ public class CashProvider {
      * @param client
      */
     public void authorization(User client) {
-        
+        //Здесь должна быть реализована сверка аккаунта приложения и банковского аккаунта.
+        cardNumber = client.getCardNumber();
+        isAuthorized = true;
     }
 
 }
